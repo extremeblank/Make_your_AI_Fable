@@ -23,11 +23,11 @@ header(){ echo -e "${BOLD}$*${NC}"; }
 prompt(){ echo -ne "${CYAN}  → ${NC}$*"; }
 
 declare -A FILES
-FILES[1]="CLAUDE-FABLE-5_NO-SAFETY.md"
-FILES[2]="CLAUDE-FABLE-5_NO_PERSONALITY_AND_EXAMPLES.md"
-FILES[3]="CLAUDE-FABLE-5_NO_PERSONALITY_optimization.md"
-FILES[4]="CLAUDE-FABLE-5_NO_TOOLS_OR_SKILLS.md"
-FILES[5]="CLAUDE-FABLE-5_MAX_QUANT.md"
+FILES[1]="version/CLAUDE-FABLE-5_NO_SAFETY.md"
+FILES[2]="version/CLAUDE-FABLE-5_NO_PERSONALITY_AND_EXAMPLES.md"
+FILES[3]="version/CLAUDE-FABLE-5_NO_PERSONALITY_optimization.md"
+FILES[4]="version/CLAUDE-FABLE-5_NO_TOOLS_OR_SKILLS.md"
+FILES[5]="version/CLAUDE-FABLE-5_MAX_QUANT.md"
 
 declare -A LABELS
 LABELS[1]="No Safety     (safety restrictions stripped)"
