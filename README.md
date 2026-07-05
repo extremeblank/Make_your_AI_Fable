@@ -25,7 +25,7 @@
 
 We always wondered **how** Anthropic could optimize system prompts for coding assistants. Not so long ago the system prompt was leaked to the public, but too big and detailed for most models, so we optimized it to fit within the model's context window.
 
-**Why use it?**
+### Why use it?
 
 - **Precision**: Anthropic made it so that Fable had a structured and precise system prompt. So adding this to your own system prompt can help ensure consistency and accuracy.
 - **Directness**: It removes unnecessary fluff, making responses faster and more focused.
